@@ -1,0 +1,10 @@
+{application,sweet_xml,
+             [{modules,['Elixir.SweetXml','Elixir.SweetXml.DTDError',
+                        'Elixir.SweetXml.Options',
+                        'Elixir.SweetXml.XmerlFatal','Elixir.SweetXpath',
+                        'Elixir.SweetXpath.Priv']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,xmerl]},
+              {description,"A sweet wrapper of :xmerl to help query XML docs"},
+              {registered,[]},
+              {vsn,"0.7.5"}]}.
